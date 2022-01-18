@@ -34,6 +34,6 @@ using ADB:
 adb shell /data/local/tmp/speed_benchmark_torch --help
 ```
 Now you can use functions in `./device_profiling` to automate profiling.
-
+See the [example](https://github.com/qbit-/NNSC_2022_mobile/tree/main/example.ipynb)
 
 	
