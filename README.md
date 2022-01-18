@@ -11,7 +11,7 @@ Running PyTorch models on mobile phone
 ## Dependencies
 - see `env_docker.yaml`. You can install requirements with conda: 
 ```sh 
-conda create -n nnsc_2022_mobile --file env_docker.yaml`
+conda create -n nnsc_2022_mobile --file env_docker.yaml
 ```
 - you can also use a docker image `qbit271/mmsc_2022_mobile` or build your own here
 
