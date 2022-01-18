@@ -1,0 +1,12 @@
+nemo-toolkit[all]==1.0.0b3
+sshtunnel==0.3.1
+tensorly==0.4.5
+wandb==0.10.20
+optuna==2.5.0
+plotly==4.14.3
+tensorflow==2.3.1
+tensorflow-addons==0.12.1
+onnx-tf==1.7.0
+onnx==1.8.1
+torch==1.7.1
+torchtext==0.8.0
