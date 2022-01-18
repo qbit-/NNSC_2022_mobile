@@ -84,8 +84,8 @@ The following commands are necessary on Mac OS for successful building.
 	model.eval()
 	example = torch.zeros(1, 3, 224, 224)
 	script_module = torch.jit.trace(model, example)
-	augment_model_with_bundled_inputs(script_module, [(example,)])
 	script_module_optimized = optimize_for_mobile(script_module)
+    augment_model_with_bundled_inputs(script_module_optimized, [(example,)])
 	torch.jit.save(script_module_optimized, "./resnet18.pt")
     ```
 Make the binary `python generate_example_model_pt.py`
